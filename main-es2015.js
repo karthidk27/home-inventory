@@ -1099,7 +1099,7 @@ HeaderComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCo
     } if (rf & 2) {
         var _t;
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵqueryRefresh"](_t = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵloadQuery"]()) && (ctx.searchBox = _t.first);
-    } }, outputs: { searchTextChanged: "searchTextChanged" }, decls: 18, vars: 4, consts: [[2, "overflow", "hidden"], [1, "row"], [1, "col-2"], [1, "d-flex"], [1, "rounded-circle", "mt-4", "ms-2", "bg-danger"], [1, "rounded-circle", "mt-4", "ms-2", "bg-warning"], [1, "rounded-circle", "mt-4", "ms-2", "bg-success"], [1, "col-8"], [1, "d-flex", "justify-content-center"], ["type", "text", "placeholder", "Search Inventory Item", 1, "rounded", "mt-2", "border", "border-secondary", 3, "ngModel", "disabled", "ngModelChange", "input"], ["searchBox", ""], ["data-toggle", "tooltip", "title", "New Inventory", "routerLink", "/add-new-inventory", 1, "mt-1", 2, "cursor", "pointer", 3, "click"], [1, "bi", "bi-plus-circle", 2, "font-size", "x-large"], ["data-toggle", "tooltip", "title", "Set Rooms", "routerLink", "/add-room", 1, "mt-1", "ms-3", 2, "cursor", "pointer", 3, "click"], [1, "bi", "bi-door-open", 2, "font-size", "x-large"]], template: function HeaderComponent_Template(rf, ctx) { if (rf & 1) {
+    } }, outputs: { searchTextChanged: "searchTextChanged" }, decls: 18, vars: 4, consts: [[2, "overflow", "hidden"], [1, "row"], [1, "col-2"], [1, "d-flex"], [1, "rounded-circle", "mt-4", "ms-2", "bg-danger"], [1, "rounded-circle", "mt-4", "ms-2", "bg-warning"], [1, "rounded-circle", "mt-4", "ms-2", "bg-success"], [1, "col-7"], [1, "d-flex", "justify-content-center"], ["type", "text", "placeholder", "Search Inventory Item", 1, "rounded", "mt-2", "border", "border-secondary", 3, "ngModel", "disabled", "ngModelChange", "input"], ["searchBox", ""], [1, "col-3"], ["data-toggle", "tooltip", "title", "New Inventory", "routerLink", "/add-new-inventory", 1, "mt-1", 2, "cursor", "pointer", 3, "click"], [1, "bi", "bi-plus-circle", 2, "font-size", "x-large"], ["data-toggle", "tooltip", "title", "Set Rooms", "routerLink", "/add-room", 1, "mt-1", "ps-3", "me-2", 2, "cursor", "pointer", 3, "click"], [1, "bi", "bi-door-open", 2, "font-size", "x-large"]], template: function HeaderComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
@@ -1117,15 +1117,15 @@ HeaderComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCo
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "div", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "div", 3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "a", 11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "div", 11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "div", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "a", 12);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function HeaderComponent_Template_a_click_14_listener() { return ctx.disableTextboxOnCreateInventory(); });
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](15, "i", 12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](15, "i", 13);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "a", 13);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "a", 14);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function HeaderComponent_Template_a_click_16_listener() { return ctx.disableTextboxOnCreateRoom(); });
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](17, "i", 14);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](17, "i", 15);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -1134,7 +1134,7 @@ HeaderComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCo
     } if (rf & 2) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](9);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngModel", ctx.searchText)("disabled", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](11, 2, ctx.isTextboxDisabled$));
-    } }, directives: [_angular_forms__WEBPACK_IMPORTED_MODULE_3__["DefaultValueAccessor"], _angular_forms__WEBPACK_IMPORTED_MODULE_3__["NgControlStatus"], _angular_forms__WEBPACK_IMPORTED_MODULE_3__["NgModel"], _angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterLinkWithHref"]], pipes: [_angular_common__WEBPACK_IMPORTED_MODULE_4__["AsyncPipe"]], styles: ["span[_ngcontent-%COMP%] {\r\n    width:7px;\r\n    height:7px;\r\n    \r\n}\r\n\r\ninput[_ngcontent-%COMP%] {\r\n    height: 30px;\r\n    width:40%;\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvaGVhZGVyL2hlYWRlci5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksU0FBUztJQUNULFVBQVU7O0FBRWQ7O0FBRUE7SUFDSSxZQUFZO0lBQ1osU0FBUztBQUNiIiwiZmlsZSI6InNyYy9hcHAvaGVhZGVyL2hlYWRlci5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsic3BhbiB7XHJcbiAgICB3aWR0aDo3cHg7XHJcbiAgICBoZWlnaHQ6N3B4O1xyXG4gICAgXHJcbn1cclxuXHJcbmlucHV0IHtcclxuICAgIGhlaWdodDogMzBweDtcclxuICAgIHdpZHRoOjQwJTtcclxufSJdfQ== */"] });
+    } }, directives: [_angular_forms__WEBPACK_IMPORTED_MODULE_3__["DefaultValueAccessor"], _angular_forms__WEBPACK_IMPORTED_MODULE_3__["NgControlStatus"], _angular_forms__WEBPACK_IMPORTED_MODULE_3__["NgModel"], _angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterLinkWithHref"]], pipes: [_angular_common__WEBPACK_IMPORTED_MODULE_4__["AsyncPipe"]], styles: ["span[_ngcontent-%COMP%] {\r\n    width:7px;\r\n    height:7px;\r\n    \r\n}\r\n\r\ninput[_ngcontent-%COMP%] {\r\n    height: 30px;\r\n    width:200px;\r\n}\r\n\r\n@media (min-width: 992px) {\r\ninput[_ngcontent-%COMP%] {\r\n    width: 40%;\r\n}\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvaGVhZGVyL2hlYWRlci5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksU0FBUztJQUNULFVBQVU7O0FBRWQ7O0FBRUE7SUFDSSxZQUFZO0lBQ1osV0FBVztBQUNmOztBQUVBO0FBQ0E7SUFDSSxVQUFVO0FBQ2Q7QUFDQSIsImZpbGUiOiJzcmMvYXBwL2hlYWRlci9oZWFkZXIuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbInNwYW4ge1xyXG4gICAgd2lkdGg6N3B4O1xyXG4gICAgaGVpZ2h0OjdweDtcclxuICAgIFxyXG59XHJcblxyXG5pbnB1dCB7XHJcbiAgICBoZWlnaHQ6IDMwcHg7XHJcbiAgICB3aWR0aDoyMDBweDtcclxufVxyXG5cclxuQG1lZGlhIChtaW4td2lkdGg6IDk5MnB4KSB7XHJcbmlucHV0IHtcclxuICAgIHdpZHRoOiA0MCU7XHJcbn1cclxufVxyXG4iXX0= */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](HeaderComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
@@ -1625,12 +1625,12 @@ __webpack_require__.r(__webpack_exports__);
 
 function InventoryItemComponent_p_18_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "p", 17);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, " Available ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, " IN ");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } }
 function InventoryItemComponent_ng_template_19_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "p", 18);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "Removed");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "OUT");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } }
 class InventoryItemComponent {
