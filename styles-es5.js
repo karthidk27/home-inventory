@@ -14,16 +14,9 @@
     /*! ../node_modules/css-loader/dist/runtime/api.js */
     "./node_modules/css-loader/dist/runtime/api.js");
 
-    exports = ___CSS_LOADER_API_IMPORT___(true); // Module
+    exports = ___CSS_LOADER_API_IMPORT___(false); // Module
 
-    exports.push([module.i, "/* You can add global styles to this file, and also import other style files */\n", "", {
-      "version": 3,
-      "sources": ["styles.css"],
-      "names": [],
-      "mappings": "AAAA,8EAA8E",
-      "file": "styles.css",
-      "sourcesContent": ["/* You can add global styles to this file, and also import other style files */\n"]
-    }]); // Exports
+    exports.push([module.i, "/* You can add global styles to this file, and also import other style files */\n", ""]); // Exports
 
     module.exports = exports;
     /***/
@@ -469,4 +462,3 @@
     /***/
   }
 }, [[3, "runtime"]]]);
-//# sourceMappingURL=styles-es5.js.map
